@@ -29,8 +29,8 @@
                         <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
                     </button>
                     <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w[250px] w-[200px] right-3 top-full 
-                    lg:block lg:static lg:bg-transparent lg:w-full lg:shadow-none lg:rounded-none lg:self-center lg:px-[130px] lg:">
-                        <ul class="block lg:flex">
+                    lg:block lg:static lg:bg-transparent lg:w-full lg:shadow-none lg:rounded-none lg:self-center lg:px-[130px]">
+                        <ul class="block mr-10 lg:flex lg:flex-row lg:gap-5 lg:items-center lg:mr-10">
                             <li class="group">
                                <a href="#Beranda" class="text-base text-black py-2 mx-8 group-hover:text-[#DCAB89] lg:text-white ">Beranda</a> 
                             </li>
@@ -40,13 +40,16 @@
                             <li class="group">
                                 <a href="#" class="text-base text-black py-2 mx-8 group-hover:text-[#DCAB89] lg:text-white">Kontak</a> 
                             </li>
+                            <div class="flex flex-row items-center ">
                             <li>
-                                <a href="#" class="text-[#caa083] px-6 py-3 font-medium">
-                                </a>    Daftar
+                                <a href="#" class="text-[#caa083] hover:text-white lg:text-[#DCAB89] px-6 py-3 font-medium">
+                                    Daftar
+                                </a>    
                             </li>
                                 <a href="login.html" class="text-white bg-[#DCAB89] px-6 py-3 font-medium rounded-lg  hover:bg-[#DCAB89]/80">
                                     Masuk
                                 </a>
+                            </div>
                             </div>
                         </ul>
                     </nav>
@@ -61,56 +64,34 @@
     <div class="relative fluid-container  h-[90vh]">
         <div class=" flex flex-wrap">
             <div class="w-full self-center px-4 py-4 lg:px-[130px] lg:py-4 lg:pt-[125px] lg:w-1/2 ">
-                <h1 class="text-white text-4xl font-semibold lg:text-[50px]  ">
-                    Langkah Mudah Untuk </br> 
-                    Menemukan</br>
-                    Properti Impianmu
-                </h1>
-                <p class="text-slate-400 text-lg mt-2">
-                    Kenyamanan anda adalah prioritas kami. 
-                </p>
+                <div class="max-w-full">
+                    <h1 class="header-text text-white text-4xl font-semibold lg:text-5xl">
+                        Langkah Mudah Untuk </br> 
+                        Menemukan</br>
+                        Properti Impianmu
+                    </h1>
+                    <p class="text-slate-400 text-lg mt-2">
+                        Kenyamanan anda adalah prioritas kami. 
+                    </p>
+                </div>
             </div>
             <div class=" w-full self-end px-0 lg:w-1/2 ">
                 <div class="absolute bottom-0 right-0 z-10">
                     <img src="./assets/image/ic_rumah.png" class="w-[800px] "/>
                 </div> 
             </div>
-        </div>
-        <div class="absolute mx-auto bottom-[100px] left-0 right-0 w-4/5 flex flex-row items-center bg-white px-3 py-5  z-[100]  rounded-xl gap-5">
-            <div class="flex flex-row relative w-1/3 shadow-md rounded-lg px-2 py-2">
-                <img src="./assets/image/ic_pin.svg" class="absolute h-[30px]  top-4 left-1"/>
-                <input type="text" class="px-3 py-3 w-full rounded-lg pl-12 focus:outline-none" placeholder="Cari Berdasarkan Provinsi">
+            <div class="">
+                
             </div>
-            <div class="flex flex-row relative w-1/3 shadow-md rounded-lg px-2 py-2 ">
-                <img src="./assets/image/ic_rumah.svg" class="absolute h-[30px] top-4 left-3"/>
-                    <select name="tipe" id="tipe" class="w-full px-3 py-3 rounded-lg pl-12 focus:outline-none font-semibold">
-                        <option value="" disabled selected>Tipe Properti</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
-                    </select>
-            </div>
-            <div class="flex flex-row relative w-1/3 shadow-md rounded-lg px-2 py-2">
-                <img src="./assets/image/ic_harga.svg" class="absolute h-[30px] top-4 left-3"/>
-                    <select name="price" id="price" class="px-3 py-3 w-full rounded-lg pl-12 focus:outline-none font-semibold">
-                        <option value="" disabled selected>Rentang Harga</option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
-                    </select>
-            </div>
-            <button class="flex flex-row relative w-[80px] text-white bg-[#DCAB89] px-6 py-8 font-medium rounded-lg  hover:bg-[#DCAB89]/80">
-                <img src="./assets/image/ic_search.svg" class="absolute bottom-4 h-[30px]"/>
-            </button>
         </div>
     </div>
 </section>
 <!-- Hero Section End -->
+<!-- Main Section Start -->
 <div>
-    <H1>Rekomendasi</H1>
+    <H1>Rekomendasi</H1> 
 </div>
+<!-- Main Section End -->
 <script src="/public/js/script.js"></script>
 </body>
 </html> 

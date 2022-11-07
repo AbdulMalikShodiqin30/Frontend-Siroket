@@ -3,27 +3,27 @@
 @tailwind utilities;
 
 .navbar-fixed {
-    @apply fixed z-[999] bg-white bg-opacity-40;
-    backdrop-filter: blur(50px);
-    box-shadow: insert 0 -1px 0 0 rgba(0, 0, 0, 2);
+  @apply fixed z-[999] bg-[#231955] bg-opacity-50;
+  backdrop-filter: blur(50px);
+  box-shadow: insert 0 -1px 0 0 rgba(0, 0, 0, 2);
 }
 
 body {
- font-family: 'Sans', sans-serif;
+  font-family: "Sans", sans-serif;
 }
 
 .hamburger-line {
- @apply w-[30px] h-[2px] my-2 block bg-white;
+  @apply w-[30px] h-[2px] my-2 block bg-white;
 }
 
 .hamburger-active > span:nth-child(1) {
- @apply  rotate-45;
+  @apply rotate-45;
 }
 
 .hamburger-active > span:nth-child(2) {
-    @apply scale-0;
-   }
+  @apply scale-0;
+}
 
 .hamburger-active > span:nth-child(3) {
- @apply  -rotate-45;
+  @apply -rotate-45;
 }
